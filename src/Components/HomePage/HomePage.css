@@ -1,0 +1,98 @@
+body {
+  background-image: url("https://wallpapers.com/images/hd/minimalist-interior-design-3gitublie0kf45ex.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  animation-name: image;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-duration: 15s;
+  animation-iteration-count: 500;
+}
+@keyframes image {
+  0% {
+    background-image: url("https://wallpapers.com/images/hd/minimalist-interior-design-3gitublie0kf45ex.jpg");
+  }
+  35% {
+    background-image: url("https://img.freepik.com/premium-photo/modern-minimalist-interior-with-blue-armchair-empty-white-color-wall-background-3d-rendering_41470-4130.jpg?w=2000");
+  }
+  70% {
+    background-image: url("https://i.pinimg.com/originals/ac/9a/77/ac9a779e89f0984ccbd1a130e3dca1fb.jpg");
+  }
+  100% {
+    background-image: url("https://www.wallpapertip.com/wmimgs/172-1720468_interior-design-hd-wallpapers-home-interior-design-hd.jpg");
+  }
+}
+.Design-container {
+  margin-left: 300px;
+  margin-top: 20px;
+  border: solid transparent;
+  width: 320px;
+  height: 100px;
+}
+.Design-subheading,
+.Design-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.Design-heading {
+  animation-name: text;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+  animation-iteration-count: 500;
+}
+@keyframes text {
+  0% {
+    letter-spacing: 0px;
+  }
+  20% {
+    letter-spacing: 10px;
+  }
+  30% {
+    letter-spacing: 15px;
+  }
+  40% {
+    letter-spacing: 22px;
+  }
+  50% {
+    letter-spacing: 28px;
+  }
+  60% {
+    letter-spacing: 20px;
+  }
+  70% {
+    letter-spacing: 15px;
+  }
+  80% {
+    letter-spacing: 10px;
+  }
+  90% {
+    letter-spacing: 7px;
+  }
+  100% {
+    letter-spacing: 0px;
+  }
+}
+.Design-button {
+  border: double black;
+  margin-left: 600px;
+  width: 200px;
+  height: 70px;
+  background: transparent;
+  border-radius: 20px;
+  border-width: 5px;
+  font-size: 25px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  transition: 1s;
+  backdrop-filter: blur(50px);
+}
+.Design-button:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  text-shadow: none;
+}

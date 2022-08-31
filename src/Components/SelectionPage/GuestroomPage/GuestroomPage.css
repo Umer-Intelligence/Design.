@@ -1,0 +1,63 @@
+.Guestroom-container {
+  border: solid transparent;
+  width: 500px;
+  margin: auto;
+}
+
+.Guestroom-Heading {
+  color: white;
+  font-size: 71px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  font-weight: bold;
+}
+.Guestroom-Design-container {
+  margin: auto;
+  margin-top: 200px;
+  border: solid transparent;
+  width: 1300px;
+  height: 3000px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.Guestroom-Design-container img {
+  border: double white;
+  border-width: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.Guestroom-Design-item:hover img {
+  border-width: 15px;
+}
+
+.Guestroom-Add-me {
+  width: 250px;
+  height: 40px;
+  backdrop-filter: blur(20px);
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  opacity: 0;
+  transition: 0.7s;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.Guestroom-Add-me:hover {
+  width: 300px;
+  letter-spacing: 2px;
+}
+
+.Guestroom-Design-item {
+  display: flex;
+  flex-direction: column;
+  transition: 1s;
+}
+.Guestroom-Design-item:hover .Guestroom-Add-me {
+  opacity: 1;
+  cursor: pointer;
+}

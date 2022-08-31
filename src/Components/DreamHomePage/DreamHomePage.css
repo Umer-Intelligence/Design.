@@ -1,0 +1,38 @@
+.Top-container-heading {
+  color: white;
+  font-size: 81px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  font-weight: bold;
+  margin-left: 280px;
+  margin-top: 50px;
+}
+.DreamHome-Container {
+  border: solid transparent;
+  width: 1050px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 200px;
+  color: white;
+  font-size: 81px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-around;
+}
+.DreamHome-Container img {
+  border: double white;
+  border-width: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.DreamHome-Container img:hover {
+  border: double rgb(237, 196, 12);
+  cursor: pointer;
+  border-width: 15px;
+}
